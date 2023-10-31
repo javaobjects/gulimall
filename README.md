@@ -54,7 +54,9 @@
 
 ```
 +- gulimall -- 
+|   +- .git -- 
 |   +- .gitignore -- 
+|   +- .idea -- 
 |   +- LICENSE -- 
 |   +- README.md -- 
 |   +- 课件和文档 -- 
@@ -68,6 +70,7 @@
 |   |   |   +- 资料 -- 
 |   |   |   |   +- gmall_数据库设计.pdb -- 
 |   |   |   |   +- gmall_数据库设计.pdm -- 
+|   |   |   |   +- pics -- 
 |   |   |   |   +- pom.xml -- 
 |   |   |   |   +- 谷粒商城-微服务架构图.jpg -- 
 |   |   +- 谷粒商城doc文档 -- 
@@ -124,6 +127,7 @@
 |   |   +- docs -- 
 |   |   |   +- gmall_数据库设计.pdb -- 
 |   |   |   +- gmall_数据库设计.pdm -- 
+|   |   |   +- pics -- 
 |   |   |   +- pom.xml -- 
 |   |   |   +- 代码 -- 
 |   |   |   |   +- gulimall -- 
@@ -160,6 +164,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   +- xss -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   +- HTMLFilter.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   +- SQLFilter.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   +- gulimall-coupon -- 
@@ -253,6 +258,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- SkuFullReductionService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- SkuLadderService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- SpuBoundsService.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -273,6 +279,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   +- config -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- GulimallCorsConfiguration.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   +- GulimallGatewayApplication.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -343,6 +350,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- MemberReceiveAddressService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- MemberService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- MemberStatisticsInfoService.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -406,6 +414,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- OrderSettingService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- PaymentInfoService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- RefundInfoService.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -523,6 +532,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- MemberPrice.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- Skus.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- SpuSaveVo.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -543,6 +553,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   +- controller -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- OssController.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   +- GulimallThirdPartyApplication.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -604,6 +615,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- MergeVo.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- PurchaseDoneVo.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- PurchaseItemDoneVo.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- com -- 
@@ -821,6 +833,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- SysUserService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   +- SysUserTokenService.java -- 
 |   |   |   |   |   |   |   |   |   |   |   +- RenrenApplication.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- io -- 
@@ -866,6 +879,7 @@
 |   |   |   |   |   |   |   |   |   |   |   |   +- R.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   +- RRException.java -- 
 |   |   |   |   |   |   |   |   |   |   |   |   +- RRExceptionHandler.java -- 
+|   |   |   |   |   |   |   |   +- resources -- 
 |   |   |   |   |   |   |   +- test -- 
 |   |   |   |   |   |   |   |   +- java -- 
 |   |   |   |   |   |   |   |   |   +- io -- 
@@ -890,9 +904,6 @@
 |   |   |   |   |   |   +- 6、promise.html -- 
 |   |   |   |   |   |   +- 7、模块化.html -- 
 |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   +- hello.js -- 
-|   |   |   |   |   |   |   +- main.js -- 
-|   |   |   |   |   |   |   +- user.js -- 
 |   |   |   |   |   |   +- mock -- 
 |   |   |   |   |   |   |   +- corse_score_10.json -- 
 |   |   |   |   |   |   |   +- user.json -- 
@@ -1033,9 +1044,6 @@
 |   |   |   |   |   |   |   |   +- assets -- 
 |   |   |   |   |   |   |   |   |   +- logo.png -- 
 |   |   |   |   |   |   |   |   +- components -- 
-|   |   |   |   |   |   |   |   |   +- Hello.vue -- 
-|   |   |   |   |   |   |   |   |   +- HelloWorld.vue -- 
-|   |   |   |   |   |   |   |   |   +- MyTable.vue -- 
 |   |   |   |   |   |   |   |   +- main.js -- 
 |   |   |   |   |   |   |   |   +- router -- 
 |   |   |   |   |   |   |   |   |   +- index.js -- 
@@ -1058,6 +1066,7 @@
 |   |   |   |   |   |   +- 4、生命周期钩子函数 -- 
 |   |   |   |   |   |   |   +- 1、生命周期.html -- 
 |   |   |   |   |   |   +- index.html -- 
+|   |   |   |   |   |   +- node_modules -- 
 |   |   |   |   |   |   +- package-lock.json -- 
 |   |   |   |   |   |   +- package.json -- 
 |   |   |   +- 谷粒商城-分布式基础-图.pdf -- 
@@ -1071,20 +1080,16 @@
 |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   +- bootstrap.css -- 
 |   |   |   |   |   |   |   +- bootstrap.min.css -- 
+|   |   |   |   |   |   +- fonts -- 
 |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   +- bootstrap.js -- 
-|   |   |   |   |   |   |   +- bootstrap.min.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- index.css -- 
 |   |   |   |   |   |   +- index.css.map -- 
 |   |   |   |   |   |   +- index.scss -- 
 |   |   |   |   |   |   +- swiper.min.css -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.js -- 
-|   |   |   |   |   |   +- swiper.min.js -- 
 |   |   |   |   +- 搜索页 -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- index.css -- 
@@ -1100,64 +1105,31 @@
 |   |   |   |   |   |   +- iconfont.svg -- 
 |   |   |   |   |   |   +- iconfont.ttf -- 
 |   |   |   |   |   |   +- iconfont.woff -- 
+|   |   |   |   |   +- image -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- jquery-1.12.4.js -- 
-|   |   |   |   |   |   +- jquery-3.2.1.min.js -- 
 |   |   |   |   |   +- sass -- 
 |   |   |   |   |   |   +- index.scss -- 
 |   |   |   |   +- 收银页 -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- style.css -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   +- 注册页面 -- 
 |   |   |   |   |   +- bootStrap -- 
 |   |   |   |   |   |   +- bootstrap -- 
 |   |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   |   +- bootstrap.css -- 
 |   |   |   |   |   |   |   |   +- bootstrap.min.css -- 
+|   |   |   |   |   |   |   +- fonts -- 
 |   |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   |   +- bootstrap.js -- 
-|   |   |   |   |   |   |   |   +- bootstrap.min.js -- 
-|   |   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- index.css -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- easyUI -- 
-|   |   |   |   |   |   |   +- AUTHORS.txt -- 
-|   |   |   |   |   |   |   +- external -- 
-|   |   |   |   |   |   |   |   +- jquery -- 
-|   |   |   |   |   |   |   |   |   +- jquery.js -- 
-|   |   |   |   |   |   |   +- index.html -- 
-|   |   |   |   |   |   |   +- jquery-ui.css -- 
-|   |   |   |   |   |   |   +- jquery-ui.js -- 
-|   |   |   |   |   |   |   +- jquery-ui.min.css -- 
-|   |   |   |   |   |   |   +- jquery-ui.min.js -- 
-|   |   |   |   |   |   |   +- jquery-ui.structure.css -- 
-|   |   |   |   |   |   |   +- jquery-ui.structure.min.css -- 
-|   |   |   |   |   |   |   +- jquery-ui.theme.css -- 
-|   |   |   |   |   |   |   +- jquery-ui.theme.min.css -- 
-|   |   |   |   |   |   |   +- LICENSE.txt -- 
-|   |   |   |   |   |   |   +- package.json -- 
-|   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   +- jQuery -- 
-|   |   |   |   |   |   |   +- jquery-1.11.1.js -- 
-|   |   |   |   |   |   |   +- jquery-1.7.2.js -- 
-|   |   |   |   |   |   |   +- jquery-1.8.3.js -- 
-|   |   |   |   |   |   |   +- jquery-1.9.1.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
-|   |   |   |   |   |   |   +- jquery-3.2.1.slim.min.js -- 
-|   |   |   |   |   |   |   +- jquery.form.js -- 
-|   |   |   |   |   |   |   +- jquery.js -- 
-|   |   |   |   |   |   |   +- jquery.mockjax-1.5.3.js -- 
-|   |   |   |   |   |   |   +- jquery.mockjax-2.2.1.js -- 
-|   |   |   |   |   |   |   +- jquery.mockjax.js -- 
-|   |   |   |   |   |   |   +- jquery.simulate.js -- 
-|   |   |   |   |   |   |   +- require.js -- 
 |   |   |   |   |   +- libs -- 
 |   |   |   |   |   |   +- jquery-1.12.4.min.js -- 
 |   |   |   |   |   +- sass -- 
@@ -1166,6 +1138,7 @@
 |   |   |   |   |   |   +- index.scss -- 
 |   |   |   |   +- 登录页面 -- 
 |   |   |   |   |   +- index.html -- 
+|   |   |   |   |   +- JD_img -- 
 |   |   |   |   |   +- JD_js -- 
 |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   |   +- zepto.js -- 
@@ -1178,22 +1151,17 @@
 |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   +- bootstrap.css -- 
 |   |   |   |   |   |   |   +- bootstrap.min.css -- 
+|   |   |   |   |   |   +- fonts -- 
 |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   +- bootstrap.js -- 
-|   |   |   |   |   |   |   +- bootstrap.min.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- scss.css -- 
 |   |   |   |   |   |   +- scss.css.map -- 
 |   |   |   |   |   |   +- scss.scss -- 
 |   |   |   |   |   |   +- swiper.css -- 
+|   |   |   |   |   +- image -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
-|   |   |   |   |   |   +- lunbo.js -- 
-|   |   |   |   |   |   +- swiper.js -- 
-|   |   |   |   |   |   +- zepto.min.js -- 
 |   |   |   |   |   +- swiper -- 
 |   |   |   |   |   |   +- swiper-3.4.2.jquery.min.js -- 
 |   |   |   |   |   |   +- swiper-3.4.2.min.css -- 
@@ -1205,19 +1173,19 @@
 |   |   |   |   |   |   +- JD2.css -- 
 |   |   |   |   |   |   +- JD2.css.map -- 
 |   |   |   |   |   |   +- JD2.scss -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   +- sass -- 
 |   |   |   |   |   |   +- JD2.scss -- 
 |   |   |   |   +- 订单页 -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- index.css -- 
 |   |   |   |   |   |   +- index.css.map -- 
+|   |   |   |   |   +- image -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- index.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   +- sass -- 
 |   |   |   |   |   |   +- index.scss -- 
 |   |   |   |   +- 详情页 -- 
@@ -1225,16 +1193,12 @@
 |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   +- bootstrap.css -- 
 |   |   |   |   |   |   |   +- bootstrap.min.css -- 
+|   |   |   |   |   |   +- fonts -- 
 |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   +- bootstrap.js -- 
-|   |   |   |   |   |   |   +- bootstrap.min.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
+|   |   |   |   |   +- image -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- item.html -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
-|   |   |   |   |   |   +- jquery1.9.js -- 
-|   |   |   |   |   |   +- js.js -- 
 |   |   |   |   |   +- scss -- 
 |   |   |   |   |   |   +- header.css -- 
 |   |   |   |   |   |   +- main.css -- 
@@ -1246,16 +1210,15 @@
 |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   +- bootstrap.css -- 
 |   |   |   |   |   |   |   +- bootstrap.min.css -- 
+|   |   |   |   |   |   +- fonts -- 
 |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   +- bootstrap.js -- 
-|   |   |   |   |   |   |   +- bootstrap.min.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
 |   |   |   |   |   +- cartList.html -- 
 |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   +- font-awesome-4.7.0 -- 
 |   |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   |   +- font-awesome.css -- 
 |   |   |   |   |   |   |   |   +- font-awesome.min.css -- 
+|   |   |   |   |   |   |   +- fonts -- 
 |   |   |   |   |   |   |   +- HELP-US-OUT.txt -- 
 |   |   |   |   |   |   |   +- less -- 
 |   |   |   |   |   |   |   |   +- animated.less -- 
@@ -1292,28 +1255,17 @@
 |   |   |   |   |   |   +- One_mainFoot.css -- 
 |   |   |   |   |   |   +- success.css -- 
 |   |   |   |   |   |   +- swiper.min.css -- 
+|   |   |   |   |   +- image -- 
+|   |   |   |   |   +- img -- 
 |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
-|   |   |   |   |   |   +- success.js -- 
-|   |   |   |   |   |   +- swiper.min.js -- 
 |   |   |   |   |   +- success.html -- 
 |   |   |   |   +- 首页资源 -- 
 |   |   |   |   |   +- index -- 
 |   |   |   |   |   |   +- css -- 
 |   |   |   |   |   |   |   +- GL.css -- 
 |   |   |   |   |   |   |   +- swiper-3.4.2.min.css -- 
+|   |   |   |   |   |   +- img -- 
 |   |   |   |   |   |   +- js -- 
-|   |   |   |   |   |   |   +- catalogLoader.js -- 
-|   |   |   |   |   |   |   +- header.js -- 
-|   |   |   |   |   |   |   +- index.js -- 
-|   |   |   |   |   |   |   +- jquery-3.1.1.min.js -- 
-|   |   |   |   |   |   |   +- left,top.js -- 
-|   |   |   |   |   |   |   +- secend.js -- 
-|   |   |   |   |   |   |   +- swiper-3.4.2.jquery.min.js -- 
-|   |   |   |   |   |   |   +- swiper-3.4.2.min.js -- 
-|   |   |   |   |   |   |   +- text.js -- 
-|   |   |   |   |   |   |   +- zz.js -- 
 |   |   |   |   |   |   +- json -- 
 |   |   |   |   |   |   |   +- catalog.json -- 
 |   |   |   |   |   +- index.html -- 
